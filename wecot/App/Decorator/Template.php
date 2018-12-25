@@ -9,7 +9,7 @@
 namespace App\Decorator;
 
 
-use Imooc\DrawDecorator;
+use Wecot\DrawDecorator;
 
 class Template
 {

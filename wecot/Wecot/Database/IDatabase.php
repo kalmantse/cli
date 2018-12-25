@@ -6,7 +6,7 @@
  * Time: 下午1:53
  */
 
-namespace Imooc\Database;
+namespace Wecot\Database;
 
 
 interface IDatabase

@@ -2,7 +2,7 @@
 return [
     'home' => [
         'decoractor' =>[
-            'Imooc\Decorator\Template',
+            'Wecot\Decorator\Template',
         ]
     ],
     'default' => 'hello wecot'

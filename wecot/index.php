@@ -2,54 +2,54 @@
 
 define('BASEDIR', __DIR__);
 
-include BASEDIR . '/Imooc/Loader.php';
-spl_autoload_register('\\Imooc\\Loader::autoload');
+include BASEDIR . '/Wecot/Loader.php';
+spl_autoload_register('\\Wecot\\Loader::autoload');
 
-//Imooc\Test::test();
+//Wecot\Test::test();
 //App\Controller\Home\Index::test();
-//$db = new \Imooc\Database();
+//$db = new \Wecot\Database();
 //$result = $db->where('id=1')->where('name=2')->limit(10)->order(12);
 
-//$test = new \Imooc\Test();
+//$test = new \Wecot\Test();
 //$test->test = 12;
 //echo $test->test;
 
 //$test->heelo(12323,'sdfdfs');
 //
-//\Imooc\Test::jjj('peng', 'wecot');
+//\Wecot\Test::jjj('peng', 'wecot');
 
 //echo $test;
-//echo \Imooc\Test::class;
+//echo \Wecot\Test::class;
 //echo $test(); //invoke
 
-//$db = Imooc\Factory::createDatabase();
+//$db = Wecot\Factory::createDatabase();
 //
-//$rest = \Imooc\Register::get('db1');
+//$rest = \Wecot\Register::get('db1');
 //var_dump($rest);
 
-//$db = new \Imooc\Database\Mysqli();
+//$db = new \Wecot\Database\Mysqli();
 //$db->connect('127.0.0.1', 'root', 'root', 'restful');
 //$rest = $db->query('show tables');
 //$res = $rest->fetch_all();
 //print_r($res);
 
-//$db = new \Imooc\Database\PDO();
+//$db = new \Wecot\Database\PDO();
 //$db->connect('127.0.0.1', 'root', 'root', 'restful');
 //$res = $db->query('show tables');
 //print_r($res->fetchAll());
 
-//$page = new \Imooc\Page();
+//$page = new \Wecot\Page();
 //if (isset($_REQUEST['male'])){
-//    $strategy = new \Imooc\MaleUser();
+//    $strategy = new \Wecot\MaleUser();
 //}else{
-//    $strategy = new \Imooc\FemaleUser();
+//    $strategy = new \Wecot\FemaleUser();
 //}
 ////设置策略
 //$page->setStrategy($strategy);
 //$page->index();
 
 //数据对象映射模式
-//$user = new \Imooc\User(1);
+//$user = new \Wecot\User(1);
 //
 //var_dump($user->id, $user->name, $user->regtime);
 //echo "=================================".PHP_EOL;
@@ -63,7 +63,7 @@ spl_autoload_register('\\Imooc\\Loader::autoload');
 //{
 //    function index()
 //    {
-//        $user = \Imooc\Factory::getUser(1);
+//        $user = \Wecot\Factory::getUser(1);
 //        $user->name = 'factory.wecot.cn';
 //        $user->mobile = 18575658888;
 //        $user->regtime = date('Y-m-d H:i:s');
@@ -74,7 +74,7 @@ spl_autoload_register('\\Imooc\\Loader::autoload');
 ////$page->index();
 //
 //
-//class Event extends \Imooc\EventGenerator
+//class Event extends \Wecot\EventGenerator
 //{
 //    function trigger()
 //    {
@@ -84,7 +84,7 @@ spl_autoload_register('\\Imooc\\Loader::autoload');
 //    }
 //}
 
-//class Observer1 implements \Imooc\Observer
+//class Observer1 implements \Wecot\Observer
 //{
 //    function update($event_info = null)
 //    {
@@ -92,7 +92,7 @@ spl_autoload_register('\\Imooc\\Loader::autoload');
 //    }
 //}
 //
-//class Observer2 implements \Imooc\Observer
+//class Observer2 implements \Wecot\Observer
 //{
 //    function update($event_info = null)
 //    {
@@ -106,12 +106,12 @@ spl_autoload_register('\\Imooc\\Loader::autoload');
 //$event->trigger();
 
 //建立原型对象
-//$prototype = new \Imooc\Canvas();
+//$prototype = new \Wecot\Canvas();
 //$prototype->init();
 //
 //$canvas1 = clone $prototype;
-//$canvas1->addDecorator(new \Imooc\ColorDecorator('blue'));
-//$canvas1->addDecorator(new \Imooc\SizeDecorator(25));
+//$canvas1->addDecorator(new \Wecot\ColorDecorator('blue'));
+//$canvas1->addDecorator(new \Wecot\SizeDecorator(25));
 //$canvas1->rect(3, 6,4,15);
 //$canvas1->draw();
 //echo '======================================'.PHP_EOL;
@@ -120,7 +120,7 @@ spl_autoload_register('\\Imooc\\Loader::autoload');
 //$canvas2->draw();
 
 //迭代器
-//$users = new \Imooc\AllUser();
+//$users = new \Wecot\AllUser();
 //
 ////var_dump($users->ids);
 //foreach ($users as $user) {
@@ -137,16 +137,16 @@ spl_autoload_register('\\Imooc\\Loader::autoload');
 //    'password' => 'root',
 //    'database' => 'test',
 //];
-//$db = \Imooc\Factory::getDatabase($config);
+//$db = \Wecot\Factory::getDatabase($config);
 //
-//$proxy = new \Imooc\Proxy();
+//$proxy = new \Wecot\Proxy();
 //$id = 1;
 //$name = 'wecot';
 //$proxy->getUsername($id);
 //$proxy->setUsername($id, $name);
 
 //使用ArrayAccess 实现配置
-//$configs = \Imooc\Config::getInstance(__DIR__.'/configs');
+//$configs = \Wecot\Config::getInstance(__DIR__.'/configs');
 //
 //print_r($configs['controller']);
 

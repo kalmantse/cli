@@ -6,7 +6,7 @@
  * Time: 上午10:10
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 interface DrawDecorator

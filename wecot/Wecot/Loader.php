@@ -6,7 +6,7 @@
  * Time: 下午12:54
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 class Loader

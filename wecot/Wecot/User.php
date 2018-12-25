@@ -6,10 +6,10 @@
  * Time: 下午6:10
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
-use Imooc\Database\Mysqli;
+use Wecot\Database\Mysqli;
 
 class User
 {

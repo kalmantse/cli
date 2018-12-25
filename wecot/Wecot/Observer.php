@@ -6,7 +6,7 @@
  * Time: 上午9:07
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 interface Observer

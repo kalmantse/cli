@@ -6,7 +6,7 @@
  * Time: 下午2:50
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 class Config implements \ArrayAccess

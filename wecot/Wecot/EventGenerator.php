@@ -6,7 +6,7 @@
  * Time: 上午9:06
  */
 
-namespace Imooc;
+namespace Wecot;
 
 //事件发生类
 abstract class EventGenerator

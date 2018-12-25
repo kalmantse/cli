@@ -6,12 +6,12 @@
  * Time: 上午9:29
  */
 
-namespace Imooc;
+namespace Wecot;
 
 /**
  * 新建canvas类
  * Class Canvas
- * @package Imooc
+ * @package Wecot
  */
 class Canvas implements DrawDecorator
 {

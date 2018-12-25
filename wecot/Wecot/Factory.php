@@ -6,7 +6,7 @@
  * Time: 下午1:26
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 class Factory

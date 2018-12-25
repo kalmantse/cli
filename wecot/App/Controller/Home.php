@@ -9,7 +9,7 @@
 namespace App\Controller;
 
 
-use Imooc\Factory;
+use Wecot\Factory;
 
 class Home
 {

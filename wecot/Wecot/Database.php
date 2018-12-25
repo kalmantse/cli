@@ -1,9 +1,9 @@
 <?php
 
-namespace Imooc;
+namespace Wecot;
 
 
-//use Imooc\Database\Mysqli;
+//use Wecot\Database\Mysqli;
 
 class Database
 {
@@ -48,7 +48,7 @@ class Database
 
     function getConnect()
     {
-        $class = "Imooc\\Database\\{$this->db_type}";
+        $class = "Wecot\\Database\\{$this->db_type}";
         $this->conn = $class::getInstance()->connect($this->host, $this->username, $this->password, $this->database, $this->port);
 
         return $this->conn;

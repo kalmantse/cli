@@ -6,7 +6,7 @@
  * Time: 下午1:15
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 class AllUser implements \Iterator

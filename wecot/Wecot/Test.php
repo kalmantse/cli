@@ -1,6 +1,6 @@
 <?php
 
-namespace Imooc;
+namespace Wecot;
 
 class Test
 {

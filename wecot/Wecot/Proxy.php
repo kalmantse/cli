@@ -6,7 +6,7 @@
  * Time: 下午2:25
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 class Proxy implements IUserProxy

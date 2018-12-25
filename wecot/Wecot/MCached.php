@@ -6,7 +6,7 @@
  * Time: 上午11:41
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 class MCached

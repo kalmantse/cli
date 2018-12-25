@@ -6,7 +6,7 @@
  * Time: 下午1:28
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 trait SingleTon

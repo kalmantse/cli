@@ -6,11 +6,11 @@
  * Time: 下午1:41
  */
 
-namespace Imooc\Database;
+namespace Wecot\Database;
 
-//use Imooc\Database\IDatabase;
+//use Wecot\Database\IDatabase;
 
-use Imooc\SingleTon;
+use Wecot\SingleTon;
 
 class Mysql implements IDatabase
 {

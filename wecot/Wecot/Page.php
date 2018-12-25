@@ -6,7 +6,7 @@
  * Time: 下午5:07
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 class Page

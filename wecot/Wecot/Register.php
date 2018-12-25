@@ -6,7 +6,7 @@
  * Time: 下午1:34
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 class Register

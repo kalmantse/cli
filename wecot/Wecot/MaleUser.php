@@ -6,7 +6,7 @@
  * Time: 下午5:05
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
 class MaleUser implements UserStrategy

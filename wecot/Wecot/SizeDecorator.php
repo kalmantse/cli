@@ -6,21 +6,21 @@
  * Time: 上午10:16
  */
 
-namespace Imooc;
+namespace Wecot;
 
 
-class ColorDecorator implements DrawDecorator
+class SizeDecorator implements DrawDecorator
 {
-    protected $color;
-    function __construct($color = 'red')
+    protected $size;
+    function __construct($size = 'red')
     {
-        $this->color = $color;
+        $this->size = $size;
     }
 
     function beforeDraw()
     {
         // TODO: Implement beforeDraw() method.
-        echo "<div style='color:$this->color'>";
+        echo "<div style='font-size:$this->size'>";
     }
 
     function afterDraw()

@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2535a871-f91e-4f5c-8da3-ac51c8986146" name="Default" comment="" />
+    <list default="true" id="2535a871-f91e-4f5c-8da3-ac51c8986146" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/AllUser.php" afterPath="$PROJECT_DIR$/wecot/Wecot/AllUser.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Canvas.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Canvas.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/ColorDecorator.php" afterPath="$PROJECT_DIR$/wecot/Wecot/ColorDecorator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Config.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Config.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Database.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Database.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Database/IDatabase.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Database/IDatabase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Database/Mysql.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Database/Mysql.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Database/Mysqli.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Database/Mysqli.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Database/PDO.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Database/PDO.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/DrawDecorator.php" afterPath="$PROJECT_DIR$/wecot/Wecot/DrawDecorator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Event.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Event.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/EventGenerator.php" afterPath="$PROJECT_DIR$/wecot/Wecot/EventGenerator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Factory.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Factory.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/FemaleUser.php" afterPath="$PROJECT_DIR$/wecot/Wecot/FemaleUser.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/IUserProxy.php" afterPath="$PROJECT_DIR$/wecot/Wecot/IUserProxy.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Loader.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Loader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/MCached.php" afterPath="$PROJECT_DIR$/wecot/Wecot/MCached.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/MaleUser.php" afterPath="$PROJECT_DIR$/wecot/Wecot/MaleUser.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Observer.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Observer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Page.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Page.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Proxy.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Proxy.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Register.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Register.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/SingleTon.php" afterPath="$PROJECT_DIR$/wecot/Wecot/SingleTon.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/SizeDecorator.php" afterPath="$PROJECT_DIR$/wecot/Wecot/SizeDecorator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/Test.php" afterPath="$PROJECT_DIR$/wecot/Wecot/Test.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/User.php" afterPath="$PROJECT_DIR$/wecot/Wecot/User.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wecot/Imooc/UserStrategy.php" afterPath="$PROJECT_DIR$/wecot/Wecot/UserStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wecot/App/Controller/Home.php" afterPath="$PROJECT_DIR$/wecot/App/Controller/Home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wecot/App/Decorator/Template.php" afterPath="$PROJECT_DIR$/wecot/App/Decorator/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wecot/beans/consumer.php" afterPath="$PROJECT_DIR$/wecot/beans/consumer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wecot/configs/controller.php" afterPath="$PROJECT_DIR$/wecot/configs/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wecot/index.php" afterPath="$PROJECT_DIR$/wecot/index.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,21 +45,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo1.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/seaslog/demo1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="273">
+              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20181224.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/seaslog/log/default/20181224.log">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wecot/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26166">
-              <caret line="1246" column="0" lean-forward="false" selection-start-line="1246" selection-start-column="0" selection-end-line="1246" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wecot/App/Controller/Home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleTon.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wecot/Wecot/SingleTon.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heap.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/heap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wecot/Wecot/Database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,6 +145,8 @@
       <find>put</find>
       <find>getI</find>
       <find>dispatchCommand</find>
+      <find>imooc</find>
+      <find>weco</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,11 +219,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.2" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="157" />
-    <option name="y" value="546" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="135" />
+    <option name="y" value="624" />
     <option name="width" value="1218" />
-    <option name="height" value="465" />
+    <option name="height" value="309" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,7 +276,14 @@
               <item name="phpcli" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpcli" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wecot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Imooc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="phpcli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpcli" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wecot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="phpcli" type="b2602c69:ProjectViewProjectNode" />
@@ -215,7 +300,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../thinkphp" />
     <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///var/www/html/phpcli/wecot/index.php&#10;index.&#9;FILE&#9;file:///var/www/html/phpcli/wecot/index.php&#10;Appli&#9;null&#9;null&#10;A&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/AllUser.php&#10;Fa&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/Factory.php&#10;User&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/User.php&#10;Mysql&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/Database/Mysqli.php&#10;Mys&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/Database/Mysqli.php&#10;Data&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/Database.php&#10;Mysqli&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/Database/Mysqli.php&#10;inde&#9;FILE&#9;file:///var/www/html/phpcli/wecot/index.php&#10;index&#9;FILE&#9;file:///var/www/html/phpcli/wecot/index.php&#10;sing&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/SingleTon.php" />
+    <property name="SearchEverywhereHistoryKey" value="SingleTo&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Wecot/SingleTon.php&#10;index.&#9;FILE&#9;file:///var/www/html/phpcli/wecot/index.php&#10;Appli&#9;null&#9;null&#10;A&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/AllUser.php&#10;Fa&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/Factory.php&#10;User&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/User.php&#10;Mysql&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/Database/Mysqli.php&#10;Mys&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/Database/Mysqli.php&#10;Data&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/Database.php&#10;Mysqli&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/Database/Mysqli.php&#10;inde&#9;FILE&#9;file:///var/www/html/phpcli/wecot/index.php&#10;index&#9;FILE&#9;file:///var/www/html/phpcli/wecot/index.php&#10;sing&#9;FILE&#9;file:///var/www/html/phpcli/wecot/Imooc/SingleTon.php" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -274,12 +359,12 @@
       <workItem from="1545446073476" duration="5998000" />
       <workItem from="1545612785011" duration="676000" />
       <workItem from="1545629964176" duration="3897000" />
-      <workItem from="1545706913857" duration="648000" />
+      <workItem from="1545706913857" duration="1144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64478000" />
+    <option name="totallyTimeSpent" value="64974000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -291,16 +376,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="157" y="546" width="1218" height="465" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1030" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22440273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14034152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32715008" sideWeight="0.5039604" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32611173" sideWeight="0.4960396" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4129693" sideWeight="0.4881188" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25827107" sideWeight="0.4881188" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58208954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -308,7 +395,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698768" sideWeight="0.4960396" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -344,42 +430,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Observer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Event.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Event.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/ColorDecorator.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/ColorDecorator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/SizeDecorator.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/SizeDecorator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Canvas.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Canvas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Loader.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
@@ -391,7 +470,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/EventGenerator.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/EventGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
@@ -412,7 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Database/PDO.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Database/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -426,35 +505,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Database/Mysql.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Database/Mysql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Database/IDatabase.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Database/IDatabase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/IUserProxy.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/IUserProxy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Proxy.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Proxy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/AllUser.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/AllUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
@@ -475,7 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Register.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
@@ -496,17 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/User.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/App/Controller/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -528,39 +600,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-designmodel/IMooc-bak/Application.php" />
     <entry file="file://$PROJECT_DIR$/imooc-designmodel/IMooc-bak/Database.php" />
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Database/Mysqli.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Database/Mysqli.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/DrawDecorator.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/DrawDecorator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/SingleTon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Config.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -578,17 +635,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/Factory.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Factory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3318">
-          <caret line="158" column="30" lean-forward="false" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -603,6 +654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -610,6 +662,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="e#263#289#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,6 +672,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13461">
           <caret line="641" column="58" lean-forward="true" selection-start-line="641" selection-start-column="58" selection-end-line="641" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -628,10 +684,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wecot/Imooc/MCached.php">
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/MCached.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -647,6 +704,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -670,13 +728,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1134">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/seaslog/demo1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="273">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wecot/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wecot/App/Controller/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wecot/Wecot/SingleTon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/heap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
         </state>
       </provider>

@@ -7,14 +7,14 @@
  */
 define('BASEDIR', __DIR__ . '/..');
 
-include BASEDIR . '/Imooc/Loader.php';
+include BASEDIR . '/Wecot/Loader.php';
 require __DIR__ . '/../vendor/autoload.php';
 
-spl_autoload_register('\\Imooc\\Loader::autoload');
+spl_autoload_register('\\Wecot\\Loader::autoload');
 
 
 use Pheanstalk\Pheanstalk;
-use Imooc\Factory;
+use Wecot\Factory;
 
 ini_set('default_socket_timeout', 86400 * 7);
 ini_set('memory_limit', '256M');
